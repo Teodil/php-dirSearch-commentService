@@ -1,0 +1,9 @@
+version: "2.29"
+
+services:
+  composer:
+    build:
+      context: docker
+      dockerfile: composer.dockerfile
+    volumes:
+      - ./:/var/www/library:rw
