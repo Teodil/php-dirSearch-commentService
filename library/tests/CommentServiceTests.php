@@ -11,7 +11,6 @@ use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Client;
 use PHPUnit\Framework\TestCase;
 use Teodil\CommentService\CommentService;
-use Teodil\CommentService\Exceptions\ApiException;
 use Teodil\CommentService\Models\Comment;
 use Teodil\CommentService\Models\CreateCommentDTO;
 
